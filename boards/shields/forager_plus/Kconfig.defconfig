@@ -1,7 +1,7 @@
-if SHIELD_FORAGER_LEFT
+if SHIELD_FORAGER_PLUS_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "Forager"
+    default "Forager+"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
@@ -11,7 +11,7 @@ config ZMK_STUDIO
 
 endif
 
-if SHIELD_FORAGER_LEFT || SHIELD_FORAGER_RIGHT
+if SHIELD_FORAGER_PLUS_LEFT || SHIELD_FORAGER_PLUS_RIGHT
 
 config ZMK_SPLIT
     default y

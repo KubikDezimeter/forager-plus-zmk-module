@@ -1,4 +1,8 @@
-#include "forager.dtsi"
+#include "forager_plus.dtsi"
+
+&default_transform {
+    col-offset = <20>;
+};
 
 / {
     chosen {
